@@ -65,6 +65,26 @@ body {
   background-color: green;
   color: white;
 }
+.update-button {
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.update-button:hover {
+  background-color: green;
+  color: white;
+}
+.delete-button {
+  position: absolute;
+  top: 1px;
+  right: 5px;
+}
+.delete-button:hover {
+  cursor: pointer;
+}
 
 .home-button {
   padding: 5px 10px;
