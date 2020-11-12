@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Route } from "react-router-dom";
 import SavedList from "./Movies/SavedList";
+import AddMovie from './Movies/AddMovie';
 import MovieForm from './Movies/MovieForm';
 import MovieList from "./Movies/MovieList";
 import Movie from "./Movies/Movie";
@@ -40,6 +41,10 @@ const App = () => {
 
       <Route path='/update-movie/:id'>
         <MovieForm setMovieList={setMovieList} />
+      </Route>
+
+      <Route path='/add-movie'>
+        <AddMovie setMovieList={setMovieList} />
       </Route>
     </>
   );

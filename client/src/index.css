@@ -88,7 +88,15 @@ body {
 
 .home-button {
   padding: 5px 10px;
+  margin-bottom: 2%;
   background-color: lightskyblue;
+  text-align: center;
+}
+.add-button {
+  padding: 5px 10px;
+  margin-top: 2%;
+  background-color: lightskyblue;
+  text-align: center;
 }
 
 .movie-warning {
